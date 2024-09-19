@@ -1,1 +1,1 @@
-# course-api
+# Quarto template - RevealJS
