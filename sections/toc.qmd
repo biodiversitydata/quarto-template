@@ -1,0 +1,33 @@
+# Table of contents
+
+---
+
+## Table of contents
+
+<br/><br/><br/><br/>
+
+:::: { .columns }
+::: { .column .center width="33%"}
+{{< fa paragraph size=2x >}}<br/><br/>Section 1
+:::
+::: { .column .center width="33%"}
+{{< fa paragraph size=2x >}}<br/><br/>Section 2
+:::
+::: { .column .center width="33%"}
+{{< fa paragraph size=2x >}}<br/><br/>Section 3
+:::
+::::
+
+<br/><br/>
+
+:::: { .columns }
+::: { .column .center width="33%"}
+{{< fa paragraph size=2x >}}<br/><br/>Section 4
+:::
+::: { .column .center width="33%"}
+{{< fa paragraph size=2x >}}<br/><br/>Section 5
+:::
+::: { .column .center width="33%"}
+{{< fa paragraph size=2x >}}<br/><br/>Section 6
+:::
+::::

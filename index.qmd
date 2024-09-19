@@ -1,0 +1,21 @@
+---
+from: markdown+emoji
+format:
+  revealjs:
+    logo: images/cesab-logo.png
+    footer: "{{< fa brands github >}} &nbsp;<https://github.com/biodiversitydata/quarto-template>"
+    smaller: true
+    auto-stretch: false
+    toc-depth: 1
+    theme: [default, "styles/main.scss"]
+engine: knitr
+---
+
+```{r}
+#| child: "sections/title-slide.qmd"
+```
+
+
+```{r}
+#| child: "sections/toc.qmd"
+```

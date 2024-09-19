@@ -1,0 +1,49 @@
+::: {.title-slide-container}
+
+::: {.title-slide-content}
+
+:::: {.columns}
+
+::: {.column .logo width="30%"}
+![](https://raw.githubusercontent.com/biodiversitydata/.github/main/profile/logo-biodiversitydata_150dpi.png)
+:::
+
+::: {.column width="70%"}
+
+::: {.title}
+Quarto template
+:::
+
+::: {.subtitle}
+RevealJS presentation
+:::
+
+::: {.date}
+```{r}
+#| echo: false
+#| results: asis
+olocale <- Sys.getlocale("LC_TIME")
+invisible(Sys.setlocale("LC_TIME", "en_US.UTF-8"))
+cat(format(Sys.Date(), "%B %Y"))
+invisible(Sys.setlocale("LC_TIME", olocale))
+```
+:::
+
+:::: {.columns}
+
+::: {.column .author width="45%"}
+Nicolas Casajus<br/>
+[{{< fa paper-plane >}}](mailto:rdev.nc@gmail.com)
+[{{< fa brands github >}}](https://github.com/ahasverus)
+[{{< fa globe >}}](https://nicolascasajus.fr)
+
+::: {.affiliation}
+{{< fa house >}} &nbsp;[FRB-CESAB](https://www.fondationbiodiversite.fr/en/about-the-foundation/le-cesab/)
+:::
+:::
+
+::::
+:::
+::::
+:::
+:::

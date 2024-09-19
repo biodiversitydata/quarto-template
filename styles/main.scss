@@ -1,0 +1,144 @@
+/*-- scss:defaults --*/
+
+// fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+$font-family-sans-serif: "Lato", Palatino, FreeSerif, serif !default;
+$font-family-monospace: "Fira Code", monospace !default;
+$presentation-font-smaller: 0.5 !default;
+
+// headings
+
+$presentation-heading-font-weight: 400 !default;
+$presentation-h1-font-size: 1.2em !default;
+$presentation-h2-font-size: 1.0em !default;
+$presentation-h3-font-size: 1.0em !default;
+
+
+/*-- scss:rules --*/
+
+.title-slide-content .columns .column .title p {
+  font-size: 2em;
+  font-weight: 600;
+  color: #2d2d2b;
+  margin: 0;
+  padding: 0;
+  padding-top: 15px;
+}
+
+.title-slide-content .columns .column .subtitle p {
+  font-size: 1.4em;
+  font-weight: 400;
+  color: #6a6358;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #6a6358;
+}
+
+.title-slide-content .columns .column .date p {
+  text-align: right;
+  font-size: 90%;
+  color: #2d2d2b;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.title-slide-content .columns .column .author {
+  color: #2d2d2b;
+  font-size: 90%;
+  padding: 0;
+  margin: 0;
+}
+
+.author p {
+  font-weight: 600;
+}
+.author i {
+  padding-left: 2px;
+  padding-right: 2px;
+  font-size: 90%;
+  font-weight: normal;
+}
+
+.small {
+  font-size: 80%;
+}
+
+.title-slide-content .columns .column .affiliation {
+  font-size: 90%;
+}
+
+.title-slide-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 650px;
+}
+
+h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+p, li, a {
+ font-weight: 300; 
+}
+
+figcaption {
+  margin-top: 0;
+  padding-top: 0;
+  text-align: center;
+  font-size: 120%;
+}
+
+figure p, figure p img {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+figure {
+  font-size: 120%;
+  margin: 0;
+  padding: 0;
+}
+
+.citation {
+  text-align: left;
+  font-size: 80%;
+}
+
+aside {
+  width: 57%;
+  padding-top: 5px;
+  border-top: 1px solid #b7b7b7;
+  margin-bottom: 5px;
+}
+
+.aside-footnotes {
+  font-size: 100%;
+}
+
+.center p {
+  text-align: center;
+}
+
+table {
+  font-family: $font-family-sans-serif;
+  font-size: 80%;
+  font-weight: 300;
+}
+
+.fa-check {
+  color: green;
+}
+
+.fa-xmark {
+  color: red;
+}
+
+.fa-arrow-up-right-from-square {
+  font-size: 70%;
+}
