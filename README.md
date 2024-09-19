@@ -1,6 +1,3 @@
-# Quarto template - RevealJS
-
-
 <h1 align="center">
   <br>
   <a href="https://biodiversitydata.github.io/quarto-template"><img src="https://raw.githubusercontent.com/biodiversitydata/.github/main/profile/logo-biodiversitydata_150dpi.png" alt="Logo" width="200"></a>
