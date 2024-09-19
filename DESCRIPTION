@@ -1,14 +1,15 @@
 Package: quarto-template
 Type: Package
-Title: Slides: {{ ... }}
-Version: 0.0.9999
+Title: Slides: A Quarto Template
+Version: 0.0.1
 Authors@R: c(
     person(given   = "Nicolas",
            family  = "Casajus",
            role    = c("aut", "cre", "cph"),
            email   = "rdev.nc@gmail.com",
            comment = c(ORCID = "0000-0002-5537-5294")))
-Description: A Quarto presentation on {{ ... }}
+Description: A Quarto presentation on how to create slides using RevealJS and 
+    the Font Awesome Extension for Quarto.
 URL: https://github.com/biodiversitydata/quarto-template
 BugReports: https://github.com/biodiversitydata/quarto-template/issues
 License: CC BY 4.0
