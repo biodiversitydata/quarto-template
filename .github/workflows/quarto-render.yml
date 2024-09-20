@@ -18,11 +18,16 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         
-      - run: |
+      - name: Install R packages 
+        run: |
+          Rscript -e "install.packages('rmarkdown')"
+      
+      - name: Render qmd files
+        run: |
           mkdir build
           quarto render index.qmd --output-dir build
       
-      - name: Deploy 🚀
+      - name: Deploy to gh-pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: build
