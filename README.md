@@ -6,7 +6,7 @@
   <br>
   Quarto template
   <br>
-  RevealJS presentation
+  HTML presentation w/ RevealJS
   <br>
 </h1>
 
@@ -28,7 +28,7 @@
   <a href="https://quarto.org/">
     <img src="https://img.shields.io/badge/Made%20with-Quarto-blue.svg" alt="Quarto">
   </a>
-  
+  &nbsp;
   <!-- License -->
   <a href="https://choosealicense.com/licenses/cc-by-4.0/">
     <img src="https://img.shields.io/badge/License-CC%20BY%204.0-green.svg" alt="License CC BY 4.0">
@@ -40,7 +40,7 @@
   <a href="https://github.com/biodiversitydata/quarto-template/actions/workflows/quarto-render.yml">
     <img src="https://github.com/biodiversitydata/quarto-template/actions/workflows/quarto-render.yml/badge.svg" alt="GHA render">
   </a>
-  
+  &nbsp;
   <!-- GitHub deployment -->
   <a href="https://github.com/biodiversitydata/quarto-template/actions/workflows/pages/pages-build-deployment">
     <img src="https://github.com/biodiversitydata/quarto-template/actions/workflows/pages/pages-build-deployment/badge.svg" alt="GHA deploy">
@@ -58,9 +58,9 @@
   <a href="#contributing">Contributing</a>
 </p>
 
-<br>
-
 ![](images/readme/title-slide-screenshot.png)
+
+<br>
 
 
 ## Overview
@@ -80,7 +80,7 @@
 
 ## Citation
 
-Casajus Nicolas (2024) _A Quarto template for HTML presentation with RevealJS framework_. <https://github.com/biodiversitydata/quarto-template/>.
+Casajus N (2024) _A Quarto template for HTML presentation with RevealJS framework_. <https://github.com/biodiversitydata/quarto-template/>.
 
 
 ## Contributing
