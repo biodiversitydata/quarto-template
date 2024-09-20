@@ -83,7 +83,7 @@ This is a [Template Repository](https://docs.github.com/en/repositories/creating
 
 ## Usage
 
-...
+A dedicated Wiki is available [**here**](https://github.com/biodiversitydata/quarto-template/wiki/).
 
 
 ## Citation
