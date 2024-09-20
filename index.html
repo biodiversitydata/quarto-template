@@ -35,6 +35,8 @@
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="index_files/libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="index_files/libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
@@ -332,27 +334,58 @@
 <div class="title-slide-container">
 <div class="title-slide-content">
 <div class="columns">
-<div class="column logo" style="width:30%;">
-<p><img data-src="https://raw.githubusercontent.com/biodiversitydata/.github/main/profile/logo-biodiversitydata_150dpi.png"></p>
-</div><div class="column" style="width:70%;">
+<!-- Title slide logo --><div class="column logo" style="width:32%;">
+<p><img data-src="images/logo-title-slide.png"></p>
+</div><!-- Title slide content --><div class="column information" style="width:68%;">
 <div class="title">
 <p>Quarto template</p>
 </div>
 <div class="subtitle">
-<p>RevealJS presentation</p>
+<p>HTML presentation w/ RevealJS framework</p>
 </div>
 <div class="date">
 <p>September 2024</p>
 </div>
-<div class="columns">
-<div class="column author" style="width:45%;">
-<p>Nicolas Casajus<br> <a href="mailto:rdev.nc@gmail.com"><i class="fa-solid fa-paper-plane" aria-label="paper-plane"></i></a> <a href="https://github.com/ahasverus"><i class="fa-brands fa-github" aria-label="github"></i></a> <a href="https://nicolascasajus.fr"><i class="fa-solid fa-globe" aria-label="globe"></i></a></p>
-<div class="affiliation">
-<p><i class="fa-solid fa-house" aria-label="house"></i> &nbsp;<a href="https://www.fondationbiodiversite.fr/en/about-the-foundation/le-cesab/">FRB-CESAB</a></p>
+<div class="columns authors">
+<div class="column author" style="width:32%;">
+<p>Nicolas Casajus<br> <a href="mailto:rdev.nc@gmail.com"><i class="fa-solid fa-paper-plane" aria-label="paper-plane"></i></a> <a href="https://nicolascasajus.fr"><i class="fa-solid fa-globe" aria-label="globe"></i></a> <a href="https://github.com/ahasverus"><i class="fa-brands fa-github" aria-label="github"></i></a> <a href="https://orcid.org/0000-0002-5537-5294"><i class="fa-brands fa-orcid" aria-label="orcid"></i></a></p>
+</div><!-- Second author --><div class="column author" style="width:32%;">
+<!--
+Author name<br/>
+[](mailto:author-email)
+[](author-website)
+[](author-github)
+[](author-orcid)
+-->
+</div><!-- Third author --><div class="column author" style="width:32%;">
+<!--
+Author name<br/>
+[](mailto:author-email)
+[](author-website)
+[](author-github)
+[](author-orcid)
+-->
+</div><!-- Close {.columns .authors} -->
 </div>
-</div></div>
-</div></div>
+<div class="columns affiliations">
+<div class="column affiliation" style="width:32%;">
+<p>Senior data scientist <br> <a href="https://www.fondationbiodiversite.fr/en/about-the-foundation/le-cesab/">FRB-CESAB</a></p>
+</div><!-- Second affiliation --><div class="column affiliation" style="width:32%;">
+<!--
+ &nbsp;[Affiliation](affiliation-url)
+-->
+</div><!-- Third affiliation --><div class="column affiliation" style="width:32%;">
+<!--
+ &nbsp;[Affiliation](affiliation-url)
+-->
+</div><!-- Close {.columns .affiliations} -->
 </div>
+<!-- Close {.column .information} -->
+</div><!-- Close {.columns} -->
+</div>
+<!-- Close {.title-slide-content} -->
+</div>
+<!-- Close {.title-slide-container} -->
 </div>
 </section>
 <section>
@@ -381,7 +414,7 @@
 <p><i class="fa-solid fa-paragraph fa-2x" aria-label="paragraph"></i><br><br>Section 6</p>
 </div></div>
 <div class="quarto-auto-generated-content">
-<p><img src="images/cesab-logo.png" class="slide-logo"></p>
+<p><img src="images/logo-affiliation.png" class="slide-logo"></p>
 <div class="footer footer-default">
 <p><i class="fa-brands fa-github" aria-label="github"></i> &nbsp;<a href="https://github.com/biodiversitydata/quarto-template" class="uri">https://github.com/biodiversitydata/quarto-template</a></p>
 </div>
@@ -397,6 +430,7 @@
   <script src="index_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="index_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="index_files/libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
   <script src="index_files/libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -417,7 +451,8 @@
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
 'smaller': true,
  
         // Display controls in the bottom right corner
@@ -588,7 +623,7 @@
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
 
           RevealMath,
           RevealNotes,

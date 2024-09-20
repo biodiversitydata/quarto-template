@@ -1,21 +1,21 @@
 ::: {.title-slide-container}
-
 ::: {.title-slide-content}
-
 :::: {.columns}
 
-::: {.column .logo width="30%"}
-![](https://raw.githubusercontent.com/biodiversitydata/.github/main/profile/logo-biodiversitydata_150dpi.png)
+<!-- Title slide logo -->
+::: {.column .logo width="32%"}
+![](images/logo-title-slide.png)
 :::
 
-::: {.column width="70%"}
+<!-- Title slide content -->
+::: {.column .information width="68%"}
 
 ::: {.title}
 Quarto template
 :::
 
 ::: {.subtitle}
-RevealJS presentation
+HTML presentation w/ RevealJS framework
 :::
 
 ::: {.date}
@@ -29,21 +29,76 @@ invisible(Sys.setlocale("LC_TIME", olocale))
 ```
 :::
 
-:::: {.columns}
+:::: {.columns .authors}
 
-::: {.column .author width="45%"}
+::: {.column .author width="32%"}
 Nicolas Casajus<br/>
 [{{< fa paper-plane >}}](mailto:rdev.nc@gmail.com)
-[{{< fa brands github >}}](https://github.com/ahasverus)
 [{{< fa globe >}}](https://nicolascasajus.fr)
-
-::: {.affiliation}
-{{< fa house >}} &nbsp;[FRB-CESAB](https://www.fondationbiodiversite.fr/en/about-the-foundation/le-cesab/)
-:::
+[{{< fa brands github >}}](https://github.com/ahasverus)
+[{{< fa brands orcid >}}](https://orcid.org/0000-0002-5537-5294)
 :::
 
-::::
+<!-- Second author -->
+::: {.column .author width="32%"}
+<!--
+Author name<br/>
+[{{< fa paper-plane >}}](mailto:author-email)
+[{{< fa globe >}}](author-website)
+[{{< fa brands github >}}](author-github)
+[{{< fa brands orcid >}}](author-orcid)
+-->
 :::
-::::
+
+<!-- Third author -->
+::: {.column .author width="32%"}
+<!--
+Author name<br/>
+[{{< fa paper-plane >}}](mailto:author-email)
+[{{< fa globe >}}](author-website)
+[{{< fa brands github >}}](author-github)
+[{{< fa brands orcid >}}](author-orcid)
+-->
 :::
+
+<!-- Close {.columns .authors} -->
+::::
+
+:::: {.columns .affiliations}
+
+::: {.column .affiliation width="32%"}
+Senior data scientist
+<br/>
+[FRB-CESAB](https://www.fondationbiodiversite.fr/en/about-the-foundation/le-cesab/)
+:::
+
+<!-- Second affiliation -->
+::: {.column .affiliation width="32%"}
+<!--
+{{< fa house >}} &nbsp;[Affiliation](affiliation-url)
+-->
+:::
+
+<!-- Third affiliation -->
+::: {.column .affiliation width="32%"}
+<!--
+{{< fa house >}} &nbsp;[Affiliation](affiliation-url)
+-->
+:::
+
+
+
+<!-- Close {.columns .affiliations} -->
+::::
+
+<!-- Close {.column .information} -->
+:::
+
+<!-- Close {.columns} -->
+::::
+
+<!-- Close {.title-slide-content} -->
+:::
+
+<!-- Close {.title-slide-container} -->
 :::

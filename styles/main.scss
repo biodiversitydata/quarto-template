@@ -17,18 +17,26 @@ $presentation-h2-font-size: 1.0em !default;
 $presentation-h3-font-size: 1.0em !default;
 
 
-/*-- scss:rules --*/
+/*-- Title slide --*/
 
-.title-slide-content .columns .column .title p {
+
+.title-slide-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 650px;
+}
+
+.title p {
   font-size: 2em;
   font-weight: 600;
   color: #2d2d2b;
   margin: 0;
   padding: 0;
-  padding-top: 15px;
+  padding-top: 5%;
 }
 
-.title-slide-content .columns .column .subtitle p {
+.subtitle p {
   font-size: 1.4em;
   font-weight: 400;
   color: #6a6358;
@@ -38,55 +46,38 @@ $presentation-h3-font-size: 1.0em !default;
   border-bottom: 1px solid #6a6358;
 }
 
-.title-slide-content .columns .column .date p {
+.date p {
   text-align: right;
   font-size: 90%;
   color: #2d2d2b;
   padding-bottom: 0;
-  margin-bottom: 0;
+  margin-bottom: 2%;
 }
 
-.title-slide-content .columns .column .author {
+.author, .affiliation {
   color: #2d2d2b;
-  font-size: 90%;
+  font-size: 95%;
   padding: 0;
   margin: 0;
 }
 
 .author p {
-  /*font-weight: 600;*/
+  font-weight: 400;
 }
 
 .author i {
   padding-left: 2px;
   padding-right: 2px;
-  font-size: 90%;
+  font-size: 95%;
   font-weight: normal;
 }
 
-.small {
-  font-size: 80%;
-}
-
-.title-slide-content .columns .column .affiliation {
+.affiliation p {
   font-size: 90%;
 }
 
-.title-slide-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 650px;
-}
 
-h2 {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-p, li, a {
- font-weight: 300; 
-}
+/*-- Figure --*/
 
 figcaption {
   margin-top: 0;
@@ -104,6 +95,27 @@ figure {
   font-size: 120%;
   margin: 0;
   padding: 0;
+}
+
+
+/*-- Tables --*/
+
+table {
+  font-family: $font-family-sans-serif;
+  font-size: 80%;
+  font-weight: 300;
+}
+
+
+/*-- Others --*/
+
+h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+p, li, a {
+ font-weight: 300; 
 }
 
 .citation {
@@ -126,20 +138,3 @@ aside {
   text-align: center;
 }
 
-table {
-  font-family: $font-family-sans-serif;
-  font-size: 80%;
-  font-weight: 300;
-}
-
-.fa-check {
-  color: green;
-}
-
-.fa-xmark {
-  color: red;
-}
-
-.fa-arrow-up-right-from-square {
-  font-size: 70%;
-}

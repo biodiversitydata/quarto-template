@@ -19,3 +19,8 @@
 # User-specific files ----
 README.html
 inst/doc
+.Rbuildignore
+index.html
+index_files/
+
+/.quarto/

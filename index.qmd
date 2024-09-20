@@ -2,10 +2,11 @@
 from: markdown+emoji
 format:
   revealjs:
-    logo: images/cesab-logo.png
+    logo: images/logo-affiliation.png
     footer: "{{< fa brands github >}} &nbsp;<https://github.com/biodiversitydata/quarto-template>"
     smaller: true
     auto-stretch: false
+    chalkboard: true
     toc-depth: 1
     theme: [default, "styles/main.scss"]
 engine: knitr

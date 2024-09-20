@@ -1,0 +1,29 @@
+on:
+  workflow_dispatch:
+  push:
+    branches: main
+
+name: Quarto Render and Publish
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+   
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        
+      - run: |
+          mkdir build
+          quarto render index.qmd --output-dir build
+      
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: build
+          clean: true

@@ -1,13 +1,15 @@
 <h1 align="center">
   <br>
-  <a href="https://biodiversitydata.github.io/quarto-template"><img src="https://raw.githubusercontent.com/biodiversitydata/.github/main/profile/logo-biodiversitydata_150dpi.png" alt="Logo" width="200"></a>
-  <br>Quarto template<br/>RevealJS presentation<br>
+  <img src="images/logo-title-slides.png" alt="Logo" width="200">
+  <br>
+  Quarto template<br/>
+  RevealJS presentation<br>
 </h1>
 
 <br>
 
 <p align="center">
-  <a href="https://biodiversitydata.github.io/quarto-template" target="_blank"><b>biodiversitydata.github.io/quarto-template</b></a></h4>
+  <a href="https://biodiversitydata.github.io/quarto-template" target="_blank"><b>View demo</b></a>
 </p>
 
 <p align="center">
@@ -24,7 +26,7 @@
 </p>
 
 <p align="center">
-  <a href="#installation">Overview</a> •
+  <a href="#overview">Overview</a> •
   <a href="#content">Content</a> •
   <a href="#using-the-template">Using the template</a> •
   <a href="#requirements">Requirements</a> •
@@ -32,8 +34,6 @@
   <a href="#citation">Citation</a> •
   <a href="#contributing">Contributing</a>
 </p>
-
-![](images/readme-screenshot.png)
 
 <br/>
 
@@ -46,25 +46,7 @@ This is a [Template Repository](https://docs.github.com/en/repositories/creating
 
 
 
-## Using the template
-
-To create a new repository from this template, proceed as follow:
-
-- Create a new repository
-- Select `biodiversitydata/quarto-template` in **Repository template**
-- Click on **Create**
-- Clone your new repository
-
-**NB.** To use this template outside this organisation, you will have to fork it before.
-
-If you want to [deploy the HTML presentation](https://biodiversitydata.github.io/quarto-template) (for public repository only) on GitHub, proceed as follow:
-
-- Click on the **Settings** of your repository
-- In the tab **Pages** use this configuration and click on **Save**:
-
-![](images/readme-ghpage.png)
-
-After a few minutes, you presentation will be available at: `https://xxx.github.io/yyy`, where `xxx` is your GitHub account and `yyy` your repository.
+## Installation
 
 
 ## Requirements
