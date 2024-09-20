@@ -55,7 +55,8 @@
   <a href="#features">Features</a> •
   <a href="#usage">Usage</a> •
   <a href="#citation">Citation</a> •
-  <a href="#contributing">Contributing</a>
+  <a href="#contributing">Contributing</a> •
+  <a href="#acknowledgments">Acknowledgments</a>
 </p>
 
 ![](images/readme/title-slide-screenshot.png)
@@ -93,4 +94,13 @@ Casajus N (2024) _A Quarto template for HTML presentation with RevealJS framewor
 
 ## Contributing
 
-...
+All types of contributions are encouraged and valued. For more information, check out our [Contributor
+Guidelines](https://github.com/biodiversitydata/quarto-template/blob/main/CONTRIBUTING.md).
+
+Please note that the `quarto-template` project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.
+
+
+## Acknowledgments
+
+This package has been developed for the [FRB-CESAB](https://www.fondationbiodiversite.fr/en/about-the-foundation/le-cesab/) training courses [program](https://frbcesab.github.io/content/courses.html).
