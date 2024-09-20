@@ -28,7 +28,7 @@
   <a href="https://quarto.org/">
     <img src="https://img.shields.io/badge/Made%20with-Quarto-blue.svg" alt="Quarto">
   </a>
-  &nbsp;
+  
   <!-- License -->
   <a href="https://choosealicense.com/licenses/cc-by-4.0/">
     <img src="https://img.shields.io/badge/License-CC%20BY%204.0-green.svg" alt="License CC BY 4.0">
@@ -40,7 +40,7 @@
   <a href="https://github.com/biodiversitydata/quarto-template/actions/workflows/quarto-render.yml">
     <img src="https://github.com/biodiversitydata/quarto-template/actions/workflows/quarto-render.yml/badge.svg" alt="GHA render">
   </a>
-  &nbsp;
+  
   <!-- GitHub deployment -->
   <a href="https://github.com/biodiversitydata/quarto-template/actions/workflows/pages/pages-build-deployment">
     <img src="https://github.com/biodiversitydata/quarto-template/actions/workflows/pages/pages-build-deployment/badge.svg" alt="GHA deploy">
@@ -65,12 +65,20 @@
 
 ## Overview
 
-...
+This repository contains files and folders required to setup a minimal [Quarto HTML Presentation](https://quarto.org/docs/presentations/) based on the [RevealJS](https://quarto.org/docs/presentations/revealjs/) framework with a custom CSS theme.
+This is a [Template Repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository) and you can generate a new repository from this template with the same directory structure, branches, and files.
+
 
 
 ## Features
 
-...
+- Basics of Quarto presentation (title slide, two column slides, code block, images and tables)
+- Custom CSS style
+- Emoji support
+- [Fontawesome](https://github.com/quarto-ext/fontawesome) & [Academicons](https://github.com/schochastics/academicons) extensions
+- Complete repository structure
+- GitHub Action to automatically render `index.qmd`
+- Website deployment on `gh-pages` branch
 
 
 ## Usage
