@@ -19,9 +19,10 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
         
       - name: Install R packages 
-        run: |
-          Rscript -e "install.packages('rmarkdown')"
-      
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          extra-packages: any::rmarkdown
+            
       - name: Render qmd files
         run: |
           mkdir build
