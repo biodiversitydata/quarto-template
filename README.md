@@ -86,6 +86,10 @@ This is a [Template Repository](https://docs.github.com/en/repositories/creating
 
 A dedicated Wiki is available [**here**](https://github.com/biodiversitydata/quarto-template/wiki/).
 
+- Read the [Installation](https://github.com/biodiversitydata/quarto-template/wiki/Installation) page to learn how to use this template repository and how to configure the GitHub Pages option.
+- Read the [Content](https://github.com/biodiversitydata/quarto-template/wiki/Installation) page to discover the role of each file.
+- Read the [Usage](https://github.com/biodiversitydata/quarto-template/wiki/Installation) page to learn how to modify file to better fit your needs.
+
 
 ## Citation
 
@@ -103,4 +107,4 @@ By contributing to this project, you agree to abide by its terms.
 
 ## Acknowledgments
 
-This package has been developed for the [FRB-CESAB](https://www.fondationbiodiversite.fr/en/about-the-foundation/le-cesab/) training courses [program](https://frbcesab.github.io/content/courses.html).
+This project has been developed for the [FRB-CESAB](https://www.fondationbiodiversite.fr/en/about-the-foundation/le-cesab/) training courses [program](https://frbcesab.github.io/content/courses.html).
