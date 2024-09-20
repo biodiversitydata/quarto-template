@@ -33,10 +33,11 @@ invisible(Sys.setlocale("LC_TIME", olocale))
 
 ::: {.column .author width="32%"}
 Nicolas Casajus<br/>
-[{{< fa paper-plane >}}](mailto:rdev.nc@gmail.com)
+[{{< fa envelope >}}](mailto:rdev.nc@gmail.com)
 [{{< fa globe >}}](https://nicolascasajus.fr)
 [{{< fa brands github >}}](https://github.com/ahasverus)
 [{{< fa brands orcid >}}](https://orcid.org/0000-0002-5537-5294)
+[{{< ai google-scholar >}}](https://scholar.google.fr/citations?user=n1swa1UAAAAJ)
 :::
 
 <!-- Second author -->
@@ -69,7 +70,11 @@ Author name<br/>
 ::: {.column .affiliation width="32%"}
 Senior data scientist
 <br/>
-[FRB-CESAB](https://www.fondationbiodiversite.fr/en/about-the-foundation/le-cesab/)
+<code>@FRB-CESAB</code>
+&nbsp;
+[{{< fa globe >}}](https://www.fondationbiodiversite.fr/en/about-the-foundation/le-cesab/)
+&nbsp;
+[{{< fa brands github >}}](https://github.com/frbcesab)
 :::
 
 <!-- Second affiliation -->
