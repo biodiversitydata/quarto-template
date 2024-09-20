@@ -119,7 +119,7 @@ We use the [GitHub flow](https://docs.github.com/en/get-started/quickstart/githu
 1. [Fork](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) this repository using the GitHub interface.
 1. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) your fork using `git clone fork-url` (replace `fork-url` by the URL of your fork). Alternatively, open RStudio IDE and create a New Project from Version Control.
 1. Create a new branch w/ `git checkout -b branch-name` (replace `branch-name` by the name of your new branch).
-1. Make your contribution (see below for examples).
+1. Make your contribution.
 1. Stage (`git add`) and commit (`git commit`) your changes as often as necessary
 1. Push your changes to GitHub w/ `git push origin branch-name`.
 3. Submit a [Pull Request](https://docs.github.com/en/get-started/quickstart/contributing-to-projects#making-a-pull-request) on the [original repo](https://github.com/biodiversitydata/quarto-template/compare).

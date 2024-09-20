@@ -98,11 +98,9 @@ Casajus N (2024) _A Quarto template for HTML presentation with RevealJS framewor
 
 ## Contributing
 
-All types of contributions are encouraged and valued. For more information, check out our [Contributor
-Guidelines](https://github.com/biodiversitydata/quarto-template/blob/main/CONTRIBUTING.md).
+All types of contributions are encouraged and valued. For more information, check out our [Contributor Guidelines](https://github.com/biodiversitydata/quarto-template/blob/main/CONTRIBUTING.md).
 
-Please note that the `quarto-template` project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html).
-By contributing to this project, you agree to abide by its terms.
+Please note that the `quarto-template` project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
 
 
 ## Acknowledgments
