@@ -12,11 +12,23 @@ format:
 engine: knitr
 ---
 
+<!-- Insert section 'Title slide' -->
+
 ```{r}
 #| child: "sections/title-slide.qmd"
 ```
 
 
+<!-- Insert section 'Table of contents' -->
+
 ```{r}
-#| child: "sections/toc.qmd"
+#| child: "sections/table-of-contents.qmd"
 ```
+
+
+<!-- Insert section 'Quarto basics' -->
+
+```{r}
+#| child: "sections/quarto-basics.qmd"
+```
+

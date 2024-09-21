@@ -1,0 +1,7 @@
+# Quarto basics
+
+---
+
+## Simple slide
+
+...
