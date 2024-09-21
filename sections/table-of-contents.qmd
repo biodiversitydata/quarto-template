@@ -4,30 +4,31 @@
 
 ## Table of contents
 
-<br/><br/><br/><br/>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 :::: { .columns }
-::: { .column .center width="33%"}
-{{< fa paragraph size=2x >}}<br/><br/>Section 1
-:::
-::: { .column .center width="33%"}
-{{< fa paragraph size=2x >}}<br/><br/>Section 2
-:::
-::: { .column .center width="33%"}
-{{< fa paragraph size=2x >}}<br/><br/>Section 3
-:::
-::::
 
-<br/><br/>
+::: { .column .center width="33%"}
+{{< fa code size=2x >}}
+<br>
+Section 1
+:::
 
-:::: { .columns }
 ::: { .column .center width="33%"}
-{{< fa paragraph size=2x >}}<br/><br/>Section 4
+{{< fa brands github size=2x >}}
+<br>
+Section 2
 :::
+
 ::: { .column .center width="33%"}
-{{< fa paragraph size=2x >}}<br/><br/>Section 5
+{{< fa book size=2x >}}
+<br>
+Resources
 :::
-::: { .column .center width="33%"}
-{{< fa paragraph size=2x >}}<br/><br/>Section 6
-:::
+
 ::::

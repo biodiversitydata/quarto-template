@@ -1,7 +1,111 @@
-# Quarto basics
+# Section 1
 
----
 
-## Simple slide
 
-...
+## Slide title
+
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit[^1]...
+
+<br>
+
+:::: {.columns}
+
+::: {.column width=50%}
+**Left column**
+
+Neque porro quisquam est qui dolorem ipsum.
+
+![](images/logo-title-slide.png){width=25%}
+:::
+
+::: {.column .center width=50%}
+**Right column (content centered)**
+
+Neque porro quisquam est qui dolorem ipsum.
+
+![](images/logo-title-slide.png){width=50%}
+:::
+
+::::
+
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+
+
+[^1]: This is a footnote.
+
+
+
+# Section 2
+
+
+
+## Slide title
+
+
+:::: {.columns}
+
+::: {.column width=30%}
+**Left column**
+
+Neque porro quisquam est.
+
+![](images/logo-title-slide.png){width=55%}
+:::
+
+::: {.column width=70%}
+**Right column**
+
+Neque porro quisquam est qui dolorem ipsum.
+
+| Header 1    | Header 2    | Header 3    | Header 4    | Header 5    | Header 6    |
+|:------------|:-----------:|------------:|------------:|------------:|------------:|
+| Row 1 Col 1 | Row 1 Col 2 | Row 1 Col 3 | Row 1 Col 4 | Row 1 Col 5 | Row 1 Col 6 |
+| Row 2 Col 1 | Row 2 Col 2 | Row 2 Col 3 | Row 2 Col 4 | Row 2 Col 5 | Row 2 Col 6 |
+| Row 3 Col 1 | Row 3 Col 2 | Row 3 Col 3 | Row 3 Col 4 | Row 3 Col 5 | Row 3 Col 6 |
+| Row 4 Col 1 | Row 4 Col 2 | Row 4 Col 3 | Row 4 Col 4 | Row 4 Col 5 | Row 4 Col 6 |
+
+: Table 1: Table caption
+:::
+
+::::
+
+<br>
+
+Insert icons with [Font Awesome](https://fontawesome.com/search) {{< fa brands github >}} or [Academicons](https://jpswalsh.github.io/academicons/) {{< ai sci-hub >}}
+
+
+<br>
+
+:::: {.columns}
+
+::: {.column width=50%}
+:::
+
+::: {.column width=50%}
+```{r}
+#| echo: true
+#| eval: true
+
+# Block code with unicode symbol ----
+x <- "I \u2665 Quarto"
+print(x)
+```
+:::
+
+::::
+
+
+
+# Resources
+
+
+
+## Resources
+
+- [Quarto guide](https://quarto.org/docs/guide/)
+- [Markdown syntax](https://quarto.org/docs/authoring/markdown-basics.html)
+- [RevealJS guide](https://quarto.org/docs/presentations/revealjs/)
+
+<br>
+
+To use this template, visit the [**Wiki**](https://github.com/biodiversitydata/quarto-template/wiki).
