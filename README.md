@@ -86,9 +86,9 @@ This is a [Template Repository](https://docs.github.com/en/repositories/creating
 
 A dedicated Wiki is available [**here**](https://github.com/biodiversitydata/quarto-template/wiki/).
 
-- Read the [Installation](https://github.com/biodiversitydata/quarto-template/wiki/Installation) page to learn how to use this repository and how to configure the GitHub Pages.
+- Read the [Installation](https://github.com/biodiversitydata/quarto-template/wiki/Installation) page to learn how to use this template.
 - Read the [Content](https://github.com/biodiversitydata/quarto-template/wiki/Content) page to discover the role of each file.
-- Read the [Usage](https://github.com/biodiversitydata/quarto-template/wiki/Usage) page to learn how to modify files to better fit your needs.
+- Read the [Usage](https://github.com/biodiversitydata/quarto-template/wiki/Usage) page to start writing your own presentation.
 
 
 ## Citation
