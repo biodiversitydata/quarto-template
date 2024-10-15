@@ -3,7 +3,7 @@ from: markdown+emoji
 format:
   revealjs:
     logo: images/logo-affiliation.png
-    footer: "{{< fa brands github >}} &nbsp;<https://github.com/biodiversitydata/quarto-template>"
+    footer: "{{< fa brands github >}} &nbsp;[`biodiversitydata/quarto-template`](https://github.com/biodiversitydata/quarto-template) &nbsp; &bull; &nbsp; {{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} &nbsp;[`cc-by-4.0`](https://creativecommons.org/licenses/by/4.0/deed.en)"
     smaller: true
     auto-stretch: false
     chalkboard: true
