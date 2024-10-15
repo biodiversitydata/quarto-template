@@ -1,3 +1,12 @@
+<!-- Delete the chunk from here... -->
+
+> [!IMPORTANT]
+> Please visit our [**Wiki**](https://github.com/biodiversitydata/quarto-template/wiki) to learn more about this Template.
+
+<!-- ... to here -->
+
+
+
 <!-- Logo & Title -->
 
 <h1 align="center">
