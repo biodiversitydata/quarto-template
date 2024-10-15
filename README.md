@@ -52,48 +52,37 @@
 
 <p align="center">
   <a href="#overview">Overview</a> •
-  <a href="#features">Features</a> •
   <a href="#usage">Usage</a> •
   <a href="#citation">Citation</a> •
   <a href="#contributing">Contributing</a> •
   <a href="#acknowledgments">Acknowledgments</a>
 </p>
 
-![](images/readme/title-slide-screenshot.png)
-
 <br>
 
 
 ## Overview
 
-This repository contains files and folders required to setup a minimal [Quarto HTML Presentation](https://quarto.org/docs/presentations/) based on the [RevealJS](https://quarto.org/docs/presentations/revealjs/) framework with a custom CSS theme.
-This is a [Template Repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository) and you can generate a new repository from this template with the same directory structure, branches, and files.
-
-
-
-## Features
-
-- Basics of Quarto presentation (title slide, two column slides, code block, images and tables)
-- Custom CSS style
-- Emoji support
-- [Fontawesome](https://github.com/quarto-ext/fontawesome) & [Academicons](https://github.com/schochastics/academicons) extensions
-- Complete repository structure
-- GitHub Action to automatically render `index.qmd`
-- Website deployment on `gh-pages` branch
+This repository contains files used to generate the online presentation [Quarto template](https://biodiversitydata.github.io/quarto-template) based on [Quarto](https://quarto.org/) and the [RevealJS](https://quarto.org/docs/presentations/revealjs/) framework.
 
 
 ## Usage
 
-A dedicated Wiki is available [**here**](https://github.com/biodiversitydata/quarto-template/wiki/).
+If you want to render the slides locally, you need to install the following tools:
 
-- Read the [Installation](https://github.com/biodiversitydata/quarto-template/wiki/Installation) page to learn how to use this template.
-- Read the [Content](https://github.com/biodiversitydata/quarto-template/wiki/Content) page to discover the role of each file.
-- Read the [Usage](https://github.com/biodiversitydata/quarto-template/wiki/Usage) page to start writing your own presentation.
+- [`R`](https://cran.r-project.org/) and [`RStudio Desktop`](https://posit.co/download/rstudio-desktop/)
+- [`Quarto CLI`](https://quarto.org/docs/get-started/)
+
+[Fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository and [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) your copy.
+
+Then, open the `index.qmd` in RStudio and click on the button **Render**. This will create an `index.html` containing your presentation. Open this `index.html` in your favorite web browser to access slides.
+
+To understand the file organisation of this repository, please read this [Wiki](https://github.com/biodiversitydata/quarto-template/wiki).
 
 
 ## Citation
 
-Casajus N (2024) _A Quarto template for HTML presentation with RevealJS framework_. <https://github.com/biodiversitydata/quarto-template/>.
+Casajus N (2024) _A Quarto template for HTML presentation with RevealJS framework_. Online presentation available at <https://github.com/biodiversitydata/quarto-template/>.
 
 
 ## Contributing
@@ -105,4 +94,4 @@ Please note that the `quarto-template` project is released with a [Contributor C
 
 ## Acknowledgments
 
-This project has been developed for the [FRB-CESAB](https://www.fondationbiodiversite.fr/en/about-the-foundation/le-cesab/) training courses [program](https://frbcesab.github.io/content/courses.html).
+This project has been developed for the [FRB-CESAB](https://www.fondationbiodiversite.fr/en/about-the-foundation/le-cesab/) training courses [program](https://frbcesab.github.io/content/courses.html) and it's part of the training course [Biodiversity data management](https://biodiversitydata.github.io).
